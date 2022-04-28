@@ -16,4 +16,8 @@ public class HelloController {
 	public String bsm() {
 		return "Comunicação <br /> Persistência <br /> Trabalho em equipe <br /> Atenção ao detalhe <br /> Orientação ao futuro <br /> Responsabilidade Pessoal <br /> Mentalidade de Crescimento <br /> Proatividade ";
 	}
+	@GetMapping ("/objetivo")
+	public String objetivo() {
+		return "Nesta semana tivemos o objetivo de reforçar a atenção aos detalhas e a persistência uma vez que aprendemos metodologias novas ";
+	}
 }
